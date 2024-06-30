@@ -25,7 +25,7 @@ class _NotesState extends State<Notes> {
   @override
   void initState() {
     handler = DatabaseHelper();
-    notes = handler.getNotes();
+    notes = handler.getNotes();git
 
     handler.initDB().whenComplete(() {
       notes = getAllNotes();
